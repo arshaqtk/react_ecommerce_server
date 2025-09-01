@@ -695,5 +695,14 @@
       "id": "5888"
     }
   ],
-  "TopSellingProducts": []
+  "TopSellingProducts": [
+    {
+      "productId": "4",
+      "name": "Blueberry Milkshake",
+      "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
+      "price": 150,
+      "count": 1,
+      "id": 1
+    }
+  ]
 }
