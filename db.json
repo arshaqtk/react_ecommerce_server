@@ -405,7 +405,7 @@
       "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
       "quantity": 8,
       "category": "drinks"
-    },,
+    },
     {
       "id": "19",
       "name": "Panna Cotta",
@@ -477,7 +477,7 @@
       "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800",
       "quantity": 10,
       "category": "fastFood"
-    }
+    },
     {
       "id": "5",
       "name": "Lemonade",
