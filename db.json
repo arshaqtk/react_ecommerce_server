@@ -385,7 +385,7 @@
       "price": "70",
       "image": "https://www.happysimpleliving.com/wp-content/uploads/2023/08/iced-coffee-concentrate-DP.jpg",
       "category": "drinks",
-      "quantity": 0,
+      "quantity": 100,
       "id": "2"
     },
     {
@@ -394,7 +394,7 @@
       "description": "Hot brewed green tea rich in antioxidants.",
       "price": 60,
       "image": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
-      "quantity": 0,
+      "quantity":100,
       "category": "drinks"
     },
     {
@@ -403,7 +403,7 @@
       "description": "Thick shake made with blueberries, milk, and ice cream.",
       "price": 150,
       "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
-      "quantity": 8,
+      "quantity": 158,
       "category": "drinks"
     },
     {
@@ -412,7 +412,7 @@
       "description": "Creamy Italian dessert topped with berry sauce.",
       "price": 280,
       "image": "https://images.pexels.com/photos/3301907/pexels-photo-3301907.jpeg",
-      "quantity": 6,
+      "quantity": 12,
       "category": "desserts"
     },
     {
@@ -421,7 +421,7 @@
       "description": "Crisp tart filled with custard and topped with fresh fruits.",
       "price": 200,
       "image": "https://images.pexels.com/photos/11581120/pexels-photo-11581120.jpeg",
-      "quantity": 10,
+      "quantity": 160,
       "category": "desserts"
     },
     {
