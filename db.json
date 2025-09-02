@@ -405,7 +405,79 @@
       "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
       "quantity": 8,
       "category": "drinks"
+    },,
+    {
+      "id": "19",
+      "name": "Panna Cotta",
+      "description": "Creamy Italian dessert topped with berry sauce.",
+      "price": 280,
+      "image": "https://images.pexels.com/photos/3301907/pexels-photo-3301907.jpeg",
+      "quantity": 6,
+      "category": "desserts"
     },
+    {
+      "id": "20",
+      "name": "Fruit Tart",
+      "description": "Crisp tart filled with custard and topped with fresh fruits.",
+      "price": 200,
+      "image": "https://images.pexels.com/photos/11581120/pexels-photo-11581120.jpeg",
+      "quantity": 10,
+      "category": "desserts"
+    },
+    {
+      "id": "23",
+      "name": "Hot Dog",
+      "description": "Classic hot dog topped with mustard and ketchup.",
+      "price": 120,
+      "image": "https://images.pexels.com/photos/3023479/pexels-photo-3023479.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "24",
+      "name": "French Fries",
+      "description": "Crispy golden french fries served with ketchup.",
+      "price": 100,
+      "image": "https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "26",
+      "name": "Shawarma Wrap",
+      "description": "Grilled chicken wrapped with veggies in pita bread.",
+      "price": 160,
+      "image": "https://lifeloveandgoodfood.com/wp-content/uploads/2020/04/Chicken-Shawarma_09_1200x1200.jpg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "27",
+      "name": "Sandwich",
+      "description": "Grilled sandwich with cheese, tomato, and cucumber.",
+      "price": 90,
+      "image": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "28",
+      "name": "Nachos",
+      "description": "Crispy nachos served with cheese dip.",
+      "price": 140,
+      "image": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "29",
+      "name": "Chicken Burger",
+      "description": "Juicy chicken patty with lettuce and mayo.",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800",
+      "quantity": 10,
+      "category": "fastFood"
+    }
     {
       "id": "5",
       "name": "Lemonade",
@@ -486,78 +558,6 @@
       "image": "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg",
       "quantity": 10,
       "category": "desserts"
-    },
-    {
-      "id": "19",
-      "name": "Panna Cotta",
-      "description": "Creamy Italian dessert topped with berry sauce.",
-      "price": 280,
-      "image": "https://images.pexels.com/photos/3301907/pexels-photo-3301907.jpeg",
-      "quantity": 6,
-      "category": "desserts"
-    },
-    {
-      "id": "20",
-      "name": "Fruit Tart",
-      "description": "Crisp tart filled with custard and topped with fresh fruits.",
-      "price": 200,
-      "image": "https://images.pexels.com/photos/11581120/pexels-photo-11581120.jpeg",
-      "quantity": 10,
-      "category": "desserts"
-    },
-    {
-      "id": "23",
-      "name": "Hot Dog",
-      "description": "Classic hot dog topped with mustard and ketchup.",
-      "price": 120,
-      "image": "https://images.pexels.com/photos/3023479/pexels-photo-3023479.jpeg",
-      "quantity": 10,
-      "category": "fastFood"
-    },
-    {
-      "id": "24",
-      "name": "French Fries",
-      "description": "Crispy golden french fries served with ketchup.",
-      "price": 100,
-      "image": "https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg",
-      "quantity": 10,
-      "category": "fastFood"
-    },
-    {
-      "id": "26",
-      "name": "Shawarma Wrap",
-      "description": "Grilled chicken wrapped with veggies in pita bread.",
-      "price": 160,
-      "image": "https://lifeloveandgoodfood.com/wp-content/uploads/2020/04/Chicken-Shawarma_09_1200x1200.jpg",
-      "quantity": 10,
-      "category": "fastFood"
-    },
-    {
-      "id": "27",
-      "name": "Sandwich",
-      "description": "Grilled sandwich with cheese, tomato, and cucumber.",
-      "price": 90,
-      "image": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg",
-      "quantity": 10,
-      "category": "fastFood"
-    },
-    {
-      "id": "28",
-      "name": "Nachos",
-      "description": "Crispy nachos served with cheese dip.",
-      "price": 140,
-      "image": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg",
-      "quantity": 10,
-      "category": "fastFood"
-    },
-    {
-      "id": "29",
-      "name": "Chicken Burger",
-      "description": "Juicy chicken patty with lettuce and mayo.",
-      "price": 170,
-      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800",
-      "quantity": 10,
-      "category": "fastFood"
     },
     {
       "id": "31",
