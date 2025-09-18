@@ -2,35 +2,222 @@
   "users": [
     {
       "id": "fad2",
-      "username": "Arshaq tk",
+      "username": "Muhammed Arshaq tk",
       "email": "arshaqtk3@gmail.com",
-      "password": "12341234",
+      "password": "12345678",
       "image": "/src/assets/images/profile-icon-9.png",
       "role": "user",
       "isAuthenticated": true,
       "cart": [],
       "wishlist": [
         {
-          "productId": "24",
-          "productName": "French Fries",
-          "productPrice": 100,
-          "productImage": "https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg"
+          "productId": "2",
+          "productName": "Iced Coffee",
+          "productPrice": "70",
+          "productImage": "https://www.happysimpleliving.com/wp-content/uploads/2023/08/iced-coffee-concentrate-DP.jpg"
         },
         {
-          "productId": "27",
-          "productName": "Sandwich",
-          "productPrice": 90,
-          "productImage": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg"
+          "productId": "4",
+          "productName": "Blueberry Milkshake",
+          "productPrice": 150,
+          "productImage": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg"
+        },
+        {
+          "productId": "5",
+          "productName": "Lemonade",
+          "productPrice": 70,
+          "productImage": "https://prod-app.breville.com/thumbnail/recipe/1722581612/BCA800-fizzy+lemonade-hero+thumbnail-V3_1080x1440.jpg"
         }
       ],
       "shippingAddress": {
-        "name": "Arshaq tk",
+        "name": "Muhammed Arsha",
         "address": "vattapparmbu,Parappur (Po)",
         "city": "kottakkal",
         "pincode": "676504",
         "phone": "946843081"
       },
-      "orders": []
+      "orders": [
+        {
+          "id": 1758208833396,
+          "products": [
+            {
+              "productId": "3",
+              "productName": "Green Tea",
+              "productPrice": 60,
+              "productImage": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
+              "productQuantity": 1
+            }
+          ],
+          "userId": "fad2",
+          "status": "Canceled",
+          "paymentType": "cod",
+          "payment": "COD_1758208832331_n4zxdmaqq",
+          "subTotal": 80,
+          "date": "2025-09-18",
+          "shippingAddress": {
+            "name": "Muhammed Arsha",
+            "address": "vattapparmbu,Parappur (Po)",
+            "city": "kottakkal",
+            "pincode": "676504",
+            "phone": "946843081"
+          }
+        },
+        {
+          "id": 1758208813041,
+          "userId": "fad2",
+          "products": [
+            {
+              "productId": "3",
+              "productName": "Green Tea",
+              "productPrice": 60,
+              "productImage": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
+              "productQuantity": 8
+            },
+            {
+              "productId": "5",
+              "productName": "Lemonade",
+              "productPrice": 70,
+              "productImage": "https://prod-app.breville.com/thumbnail/recipe/1722581612/BCA800-fizzy+lemonade-hero+thumbnail-V3_1080x1440.jpg",
+              "productQuantity": 1
+            }
+          ],
+          "status": "pending",
+          "paymentType": "cod",
+          "payment": "COD_1758208811577_f84i5maao",
+          "subTotal": 648,
+          "date": "2025-09-18",
+          "shippingAddress": {
+            "name": "Muhammed Arsha",
+            "address": "vattapparmbu,Parappur (Po)",
+            "city": "kottakkal",
+            "pincode": "676504",
+            "phone": "946843081"
+          }
+        },
+        {
+          "id": 1758183539989,
+          "products": [
+            {
+              "productId": "3",
+              "productName": "Green Tea",
+              "productPrice": 60,
+              "productImage": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
+              "productQuantity": 1
+            }
+          ],
+          "userId": "fad2",
+          "status": "pending",
+          "paymentType": "cod",
+          "payment": "COD_1758183538499_dfw2s24d6",
+          "subTotal": 80,
+          "date": "2025-09-18",
+          "shippingAddress": {
+            "name": "Arshaq tk",
+            "address": "vattapparmbu,Parappur (Po)",
+            "city": "kottakkal",
+            "pincode": "676504",
+            "phone": "946843081"
+          }
+        },
+        {
+          "id": 1758183344221,
+          "products": [
+            {
+              "productId": "3",
+              "productName": "Green Tea",
+              "productPrice": 60,
+              "productImage": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
+              "productQuantity": 1
+            }
+          ],
+          "userId": "fad2",
+          "status": "pending",
+          "paymentType": {
+            "type": "online"
+          },
+          "payment": "pay_RIzkeIp90qSFmt",
+          "subTotal": 80,
+          "date": "2025-09-18",
+          "shippingAddress": {
+            "name": "Arshaq tk",
+            "address": "vattapparmbu,Parappur (Po)",
+            "city": "kottakkal",
+            "pincode": "676504",
+            "phone": "946843081"
+          }
+        },
+        {
+          "id": 1758182655316,
+          "products": [
+            {
+              "productId": "4",
+              "productName": "Blueberry Milkshake",
+              "productPrice": 150,
+              "productImage": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
+              "productQuantity": 1
+            }
+          ],
+          "userId": "fad2",
+          "status": "pending",
+          "payment": "COD_1758182652829_yrfan9o24",
+          "subTotal": 170,
+          "date": "2025-09-18",
+          "shippingAddress": {
+            "name": "Arshaq tk",
+            "address": "vattapparmbu,Parappur (Po)",
+            "city": "kottakkal",
+            "pincode": "676504",
+            "phone": "946843081"
+          }
+        },
+        {
+          "id": 1758181555771,
+          "userId": "fad2",
+          "products": [
+            {
+              "productId": "2",
+              "productName": "Iced Coffee",
+              "productPrice": "70",
+              "productImage": "https://www.happysimpleliving.com/wp-content/uploads/2023/08/iced-coffee-concentrate-DP.jpg",
+              "productQuantity": 1
+            },
+            {
+              "productId": "4",
+              "productName": "Blueberry Milkshake",
+              "productPrice": 150,
+              "productImage": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
+              "productQuantity": 1
+            },
+            {
+              "productId": "3",
+              "productName": "Green Tea",
+              "productPrice": 60,
+              "productImage": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
+              "productQuantity": 1
+            },
+            {
+              "productId": "28",
+              "productName": "Nachos",
+              "productPrice": 140,
+              "productImage": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg",
+              "productQuantity": 1
+            }
+          ],
+          "status": "Canceled",
+          "payment": "COD_1758181553890_slxot7srs",
+          "subTotal": 481,
+          "date": "2025-09-18",
+          "shippingAddress": {
+            "name": "Arshaq tk",
+            "address": "vattapparmbu,Parappur (Po)",
+            "city": "kottakkal",
+            "pincode": "676504",
+            "phone": "946843081"
+          }
+        }
+      ],
+      "phone": "",
+      "address": ""
     },
     {
       "id": "e3cd",
@@ -82,12 +269,27 @@
       "id": "f2ee",
       "username": "shreenand",
       "email": "sreenand@gmail.com",
-      "password": "12341234",
+      "password": "12345678",
       "image": "/src/assets/images/profile-icon-9.png",
       "role": "user",
       "isAuthenticated": true,
-      "cart": [],
-      "wishlist": [],
+      "cart": [
+        {
+          "productId": "4",
+          "productName": "Blueberry Milkshake",
+          "productPrice": 150,
+          "productImage": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
+          "productQuantity": 3
+        }
+      ],
+      "wishlist": [
+        {
+          "productId": "29",
+          "productName": "Chicken Burger",
+          "productPrice": 170,
+          "productImage": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800"
+        }
+      ],
       "shippingAddress": {
         "name": "shreenand",
         "address": "idimimuzhkkal",
@@ -96,6 +298,30 @@
         "phone": "9876543498"
       },
       "orders": [
+        {
+          "id": 1756725919336,
+          "products": [
+            {
+              "productId": "8",
+              "productName": "Peach Iced Tea",
+              "productPrice": 110,
+              "productImage": "https://media.istockphoto.com/id/530186732/photo/fresh-homemade-peach-sweet-tea.jpg?s=612x612&w=0&k=20&c=F6wphGYPPVZqEzYTIqFoCWfOyvpBXakNNxEGXAfVdRY=",
+              "productQuantity": 1
+            }
+          ],
+          "userId": "f2ee",
+          "status": "pending",
+          "payment": "pay_RCJtqrjJDi0xrm",
+          "subTotal": 130,
+          "date": "2025-09-01",
+          "shippingAddress": {
+            "name": "shreenand",
+            "address": "idimimuzhkkal",
+            "city": "kakkanchery",
+            "pincode": "676345",
+            "phone": "9876543498"
+          }
+        },
         {
           "id": 1756725076720,
           "products": [
@@ -120,7 +346,11 @@
             "phone": "9876543498"
           }
         }
-      ]
+      ],
+      "phone": "sfsdgsg",
+      "address": "",
+      "bio": "",
+      "birthdate": ""
     },
     {
       "id": "d941",
@@ -129,7 +359,7 @@
       "password": "12341234",
       "image": "/src/assets/images/profile-icon-9.png",
       "role": "user",
-      "isAuthenticated": false,
+      "isAuthenticated": true,
       "cart": [],
       "wishlist": [],
       "shippingAddress": [],
@@ -145,18 +375,6 @@
       "isAuthenticated": true,
       "cart": [],
       "wishlist": [
-        {
-          "productId": "3",
-          "productName": "Green Tea",
-          "productPrice": 60,
-          "productImage": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg"
-        },
-        {
-          "productId": "1",
-          "productName": " Mango Lassi",
-          "productPrice": "50",
-          "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlSlQ45vH_JReiUTNXyYvVMwW6Lb5G05fLRA&s"
-        },
         {
           "productId": "2",
           "productName": "Iced Coffee",
@@ -381,29 +599,28 @@
   "products": [
     {
       "name": "Iced Coffee",
-      "description": "Chilled coffee served over ice with a splash of milk.",
+      "description": "A refreshing glass of chilled coffee served over ice with a gentle splash of milk, perfect for a quick pick-me-up on a warm day. The smooth, bold coffee flavor is mellowed by the milk, creating a balanced and easy-to-drink beverage.",
       "price": "70",
       "image": "https://www.happysimpleliving.com/wp-content/uploads/2023/08/iced-coffee-concentrate-DP.jpg",
       "category": "drinks",
-      "quantity": 100,
+      "quantity": 0,
       "id": "2"
     },
     {
-      "id": "3",
       "name": "Green Tea",
-      "description": "Hot brewed green tea rich in antioxidants.",
+      "description": "A comforting cup of hot, brewed green tea, known for its rich antioxidant properties and delicate, earthy flavor. A perfect choice for a calming moment or as a healthy and hydrating drink.",
       "price": 60,
       "image": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
-      "quantity":100,
+      "quantity": 0,
       "category": "drinks"
     },
     {
       "id": "4",
       "name": "Blueberry Milkshake",
-      "description": "Thick shake made with blueberries, milk, and ice cream.",
+      "description": "Indulge in a thick, creamy shake made with fresh blueberries, cold milk, and rich vanilla ice cream. This vibrant and fruity treat is a delicious way to cool down.",
       "price": 150,
       "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
-      "quantity": 158,
+      "quantity": 8,
       "category": "drinks"
     },
     {
@@ -481,219 +698,421 @@
     {
       "id": "5",
       "name": "Lemonade",
-      "description": "Refreshing homemade lemonade with mint leaves.",
+      "description": "A classic, thirst-quenching homemade lemonade, bursting with a zesty lemon flavor and garnished with fresh mint leaves for an extra touch of cool refreshment.",
       "price": 70,
       "image": "https://prod-app.breville.com/thumbnail/recipe/1722581612/BCA800-fizzy+lemonade-hero+thumbnail-V3_1080x1440.jpg",
-      "quantity": 6,
-      "category": "drinks"
+      "quantity": 5,
+      "category": "drinks",
+      "review": "The perfect balance of sweet and tart. Super refreshing, especially with the mint.",
+      "star_count": 5
     },
     {
       "id": "6",
       "name": "Coconut Water",
-      "description": "Naturally hydrating fresh coconut water.",
+      "description": "Nature's own hydrating beverage. This fresh coconut water is naturally sweet and packed with electrolytes, making it a healthy and revitalizing choice.",
       "price": 50,
       "image": "https://res.cloudinary.com/peloton-cycle/image/fetch/f_auto,c_limit,w_3840,q_90/https://images.ctfassets.net/6ilvqec50fal/34IvWHpjsMv8yufOpA8uKK/3bbe4e5cf526caf9d8acdf184a635586/health-benefits-of-coconut-water.jpg",
       "quantity": 10,
-      "category": "drinks"
+      "category": "drinks",
+      "review": "So fresh and pure. It's like drinking straight from a coconut. Love it.",
+      "star_count": 4
+    },
+    {
+      "id": "27",
+      "name": "Sandwich",
+      "description": "A hearty grilled sandwich featuring layers of melted cheese, ripe tomato, and crisp cucumber, all toasted to a golden-brown perfection. A simple yet satisfying meal.",
+      "price": 90,
+      "image": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg",
+      "quantity": 10,
+      "category": "fastFood",
+      "review": "A simple and delicious sandwich. The cheese is perfectly melted, and the veggies are fresh.",
+      "star_count": 4
+    },
+    {
+      "id": "28",
+      "name": "Nachos",
+      "description": "A generous platter of crispy corn nachos served with a warm, gooey cheese dip. The perfect shareable snack for a movie night or a get-together.",
+      "price": 140,
+      "image": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg",
+      "quantity": 9,
+      "category": "fastFood",
+      "review": "The nachos are super crispy, and the cheese dip is amazing. Highly recommend!",
+      "star_count": 5
+    },
+    {
+      "id": "29",
+      "name": "Chicken Burger",
+      "description": "A juicy, well-seasoned chicken patty served on a toasted bun with crisp lettuce and a generous dollop of creamy mayo. A classic burger that hits the spot every time.",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800",
+      "quantity": 10,
+      "category": "fastFood",
+      "review": "The chicken is so tender and flavorful. A fantastic burger for a quick meal.",
+      "star_count": 4
     },
     {
       "id": "7",
       "name": "Hot Chocolate",
-      "description": "Rich hot chocolate topped with whipped cream.",
+      "description": "A rich and comforting hot chocolate, made with high-quality chocolate and topped with a generous swirl of whipped cream. A decadent and soul-soothing drink for any time of day.",
       "price": 100,
       "image": "https://www.foodandwine.com/thmb/VSSakyBhpjt2NWTKQUAU05eb2xM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Spiked-Peanut-Butter-Hot-Chocolate-FT-MAG-RECIPE-0225-b72b3e0d1545494aa9702eff42669656.jpg",
       "quantity": 9,
-      "category": "drinks"
+      "category": "drinks",
+      "review": "This hot chocolate is pure bliss. So rich and creamy, it’s the best I've had.",
+      "star_count": 5
     },
     {
       "id": "8",
       "name": "Peach Iced Tea",
-      "description": "Chilled iced tea infused with sweet peaches.",
+      "description": "A delightful chilled iced tea infused with the sweet, fragrant essence of ripe peaches. This fruity and refreshing drink is a wonderful way to enjoy a taste of summer.",
       "price": 110,
       "image": "https://media.istockphoto.com/id/530186732/photo/fresh-homemade-peach-sweet-tea.jpg?s=612x612&w=0&k=20&c=F6wphGYPPVZqEzYTIqFoCWfOyvpBXakNNxEGXAfVdRY=",
       "quantity": 10,
-      "category": "drinks"
+      "category": "drinks",
+      "review": "The peach flavor is lovely and not overpowering. A very light and pleasant iced tea.",
+      "star_count": 4
     },
     {
       "id": "9",
       "name": "Orange Juice",
-      "description": "Freshly squeezed orange juice full of vitamin C.",
+      "description": "Enjoy a glass of freshly squeezed orange juice, full of natural sweetness and a great source of Vitamin C. A simple and classic drink to brighten your day.",
       "price": 80,
       "image": "https://www.floridacitrus.org/wp-content/uploads/2025/02/BG-OJ-1024x503.webp",
       "quantity": 10,
-      "category": "drinks"
+      "category": "drinks",
+      "review": "Tastes so fresh, like it was just squeezed. A great start to the day.",
+      "star_count": 5
     },
     {
       "id": "11",
       "name": "Chocolate Cake",
-      "description": "Moist chocolate cake layered with rich chocolate ganache.",
+      "description": "Indulge in a slice of this decadent chocolate cake, featuring multiple layers of moist chocolate sponge and a rich, smooth chocolate ganache frosting. A must-have for any chocolate lover.",
       "price": 250,
       "image": "https://images.pexels.com/photos/6557291/pexels-photo-6557291.jpeg",
       "quantity": 9,
-      "category": "desserts"
+      "category": "desserts",
+      "review": "So rich and moist, a true chocolate lover's dream. It melts in your mouth!",
+      "star_count": 5
     },
     {
       "id": "12",
       "name": "Cheesecake",
-      "description": "Classic creamy cheesecake with a graham cracker crust.",
+      "description": "A slice of classic, velvety smooth cheesecake with a buttery graham cracker crust. It's a timeless dessert that offers a perfect balance of creamy texture and tangy flavor.",
       "price": 300,
       "image": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg",
       "quantity": 7,
-      "category": "desserts"
+      "category": "desserts",
+      "review": "This cheesecake is perfect. The crust is crunchy, and the filling is so light and creamy.",
+      "star_count": 5
     },
     {
       "id": "13",
       "name": "Ice Cream Sundae",
-      "description": "Vanilla ice cream topped with chocolate syrup and nuts.",
+      "description": "A classic vanilla ice cream sundae topped with a rich chocolate syrup, crunchy nuts, and a cherry on top. A nostalgic and delightful dessert for all ages.",
       "price": 150,
       "image": "https://images.pexels.com/photos/28309088/pexels-photo-28309088.jpeg",
       "quantity": 10,
-      "category": "desserts"
+      "category": "desserts",
+      "review": "Just like the ones I had as a kid. Simple and delicious!",
+      "star_count": 4
     },
     {
       "id": "17",
       "name": "Cupcake",
-      "description": "Vanilla cupcake topped with buttercream frosting.",
+      "description": "A fluffy vanilla cupcake topped with a swirl of sweet, creamy buttercream frosting. A simple and elegant treat perfect for a small indulgence.",
       "price": 70,
       "image": "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg",
+      "quantity": 10,
+      "category": "desserts",
+      "review": "The cupcake is so light, and the frosting is not too sweet. It's perfect.",
+      "star_count": 4
+    },
+    {
+      "id": "19",
+      "name": "Panna Cotta",
+      "description": "Creamy Italian dessert topped with berry sauce.",
+      "price": 280,
+      "image": "https://images.pexels.com/photos/3301907/pexels-photo-3301907.jpeg",
+      "quantity": 6,
+      "category": "desserts"
+    },
+    {
+      "id": "20",
+      "name": "Fruit Tart",
+      "description": "Crisp tart filled with custard and topped with fresh fruits.",
+      "price": 200,
+      "image": "https://images.pexels.com/photos/11581120/pexels-photo-11581120.jpeg",
       "quantity": 10,
       "category": "desserts"
     },
     {
+      "id": "23",
+      "name": "Hot Dog",
+      "description": "Classic hot dog topped with mustard and ketchup.",
+      "price": 120,
+      "image": "https://images.pexels.com/photos/3023479/pexels-photo-3023479.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "24",
+      "name": "French Fries",
+      "description": "Crispy golden french fries served with ketchup.",
+      "price": 100,
+      "image": "https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "26",
+      "name": "Shawarma Wrap",
+      "description": "Grilled chicken wrapped with veggies in pita bread.",
+      "price": 160,
+      "image": "https://lifeloveandgoodfood.com/wp-content/uploads/2020/04/Chicken-Shawarma_09_1200x1200.jpg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "27",
+      "name": "Sandwich",
+      "description": "Grilled sandwich with cheese, tomato, and cucumber.",
+      "price": 90,
+      "image": "https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "28",
+      "name": "Nachos",
+      "description": "Crispy nachos served with cheese dip.",
+      "price": 140,
+      "image": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
+      "id": "29",
+      "name": "Chicken Burger",
+      "description": "Juicy chicken patty with lettuce and mayo.",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800",
+      "quantity": 10,
+      "category": "fastFood"
+    },
+    {
       "id": "31",
       "name": "Butter Chicken",
-      "description": "Creamy tomato gravy with tender chicken pieces.",
+      "description": "A rich and creamy Indian curry featuring tender pieces of chicken simmered in a velvety, tomato-based gravy with a touch of butter and cream. A classic comfort food.",
       "price": 320,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhLfZwTv5WRs4AfdqTCgWq2nGbtdUaYpz-rw&s",
       "quantity": 10,
-      "category": "gravy"
+      "category": "gravy",
+      "review": "The best butter chicken! The gravy is so rich and the chicken is incredibly tender.",
+      "star_count": 5
     },
     {
       "id": "32",
       "name": "Paneer Butter Masala",
-      "description": "Cottage cheese cooked in creamy tomato-based gravy.",
+      "description": "A popular vegetarian curry with soft cubes of cottage cheese (paneer) cooked in a rich, creamy, and mildly spiced tomato gravy. A delicious and satisfying dish.",
       "price": 280,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS59T8yjCsK3lJnDKDjQkVx8z1048ziUNTOCw&s",
       "quantity": 10,
-      "category": "gravy"
+      "category": "gravy",
+      "review": "A vegetarian delight. The paneer is so soft and the gravy is just perfect.",
+      "star_count": 5
     },
     {
       "id": "33",
       "name": "Chicken Curry",
-      "description": "Spicy Indian chicken curry with aromatic spices.",
+      "description": "A traditional spicy Indian chicken curry, slow-cooked with a blend of aromatic spices to create a deep, complex flavor. Best enjoyed with rice or naan.",
       "price": 300,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMCPV2g-bmmRnkSzJmyPhEGzqxKwDoLI7HQ&s",
       "quantity": 10,
-      "category": "gravy"
+      "category": "gravy",
+      "review": "Authentic and spicy, just how I like it. A great, hearty curry.",
+      "star_count": 4
     },
     {
       "name": "Dal Makhani",
-      "description": "Rich black lentil curry slow-cooked with butter and cream.",
+      "description": "A luxurious Indian lentil curry made from black lentils and kidney beans, slow-cooked for hours with butter, cream, and a medley of spices. A rich and flavorful classic.",
       "price": 220,
       "image": "https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3.jpg",
       "quantity": 10,
       "category": "gravy",
-      "id": "34"
+      "id": "34",
+      "review": "So creamy and flavorful. This is a must-try for any fan of Indian food.",
+      "star_count": 5
     },
     {
       "name": "Fish Curry",
-      "description": "Traditional spicy fish curry cooked with coconut milk.",
+      "description": "A traditional, spicy fish curry cooked in a tangy and flavorful coconut milk-based gravy. A staple in coastal Indian cuisine.",
       "price": 350,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTs4sN9H55qC9QdgmC_iomSM57GVyPkwC9wQ&s",
       "quantity": 10,
       "category": "gravy",
-      "id": "35"
+      "id": "35",
+      "review": "The fish is tender, and the curry has a wonderful blend of spices and a hint of coconut.",
+      "star_count": 4
     },
     {
       "name": "Mutton Rogan Josh",
-      "description": "Kashmiri style mutton curry rich in spices.",
+      "description": "A classic Kashmiri mutton curry known for its rich red color and tender, slow-cooked meat. It's made with a special blend of aromatic spices and is incredibly flavorful.",
       "price": 400,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYicikMOWg2A3Ba_1PSEP8pcXBOtNJm5dPA&s",
       "quantity": 10,
       "category": "gravy",
-      "id": "36"
+      "id": "36",
+      "review": "The mutton is so tender it falls off the bone. A truly amazing curry.",
+      "star_count": 5
     },
     {
       "id": "38",
       "name": "Egg Curry",
-      "description": "Boiled eggs simmered in spicy onion-tomato gravy.",
+      "description": "A comforting and simple dish of boiled eggs simmered in a hearty and spicy onion-tomato gravy. A simple yet satisfying meal.",
       "price": 160,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHG0FTpTC8amad_CVA1g-bgNsobL1upPu8bQ&s",
       "quantity": 10,
-      "category": "gravy"
+      "category": "gravy",
+      "review": "A very homely and comforting dish. The gravy is full of flavor.",
+      "star_count": 4
     },
     {
       "id": "41",
       "name": "Samosa",
-      "description": "Crispy fried pastry filled with spiced potatoes.",
+      "description": "A popular Indian fried pastry with a crispy, golden-brown crust, filled with a savory mixture of spiced potatoes and peas. A perfect snack with tea.",
       "price": 30,
       "image": "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_960,w_960//InstamartAssets/samosa.webp?updatedAt=1727156367955",
       "quantity": 10,
-      "category": "snacks"
+      "category": "snacks",
+      "review": "Crispy and full of flavor. These are a great snack.",
+      "star_count": 4
     },
     {
       "id": "43",
       "name": "Spring Rolls",
-      "description": "Crispy rolls filled with vegetables and noodles.",
+      "description": "A serving of crispy, fried spring rolls filled with a delicious mix of stir-fried vegetables and noodles. Served with a dipping sauce, these are a popular appetizer.",
       "price": 90,
       "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/01/Spring-Roll-Recipe.jpg",
       "quantity": 10,
-      "category": "snacks"
+      "category": "snacks",
+      "review": "Perfectly crispy and the filling is so good. A great appetizer.",
+      "star_count": 4
     },
     {
       "id": "44",
       "name": "Pav Bhaji",
-      "description": "Buttered bread served with spicy mashed vegetable curry.",
+      "description": "A beloved Mumbai street food. This dish consists of buttered, toasted bread rolls (pav) served alongside a spicy and thick mashed vegetable curry (bhaji).",
       "price": 120,
       "image": "https://www.cookshideout.com/wp-content/uploads/2015/05/Instant-Pot-Pav-Bhaji_FI.jpg",
       "quantity": 10,
-      "category": "snacks"
+      "category": "snacks",
+      "review": "Tastes exactly like the street food in Mumbai. Absolutely delicious and authentic.",
+      "star_count": 5
     },
     {
       "id": "45",
       "name": "Vada Pav",
-      "description": "Spicy potato fritter served inside a bun.",
+      "description": "The 'Indian burger' from Mumbai, featuring a spicy potato fritter (vada) nestled inside a soft bread bun (pav), served with a variety of chutneys.",
       "price": 40,
       "image": "https://vegecravings.com/wp-content/uploads/2017/02/Vada-Pav-Recipe-Step-By-Step-Instructions-3.jpg",
       "quantity": 10,
-      "category": "snacks"
+      "category": "snacks",
+      "review": "So flavorful and a perfect quick bite. The chutneys are amazing.",
+      "star_count": 5
     },
     {
       "name": "Dhokla",
-      "description": "Soft and spongy Gujarati steamed snack.",
+      "description": "A light, soft, and spongy Gujarati steamed snack made from fermented chickpea flour. It's tangy and mildly sweet, often garnished with mustard seeds and curry leaves.",
       "price": 70,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZwIS1yE1jjbnzjaT_ZcdO8K_-vUDKB9cTDA&s",
       "quantity": 10,
       "category": "snacks",
-      "id": "48"
+      "id": "48",
+      "review": "So light and fluffy. It's a great healthy snack option.",
+      "star_count": 4
     },
     {
       "name": "Onion Rings",
-      "description": "Crispy fried onion rings with a tangy dip.",
+      "description": "A basket of perfectly crispy, deep-fried onion rings with a satisfying crunch. These golden rings are a delicious appetizer or side dish, especially with a tangy dip.",
       "price": 100,
       "image": "https://www.lanascooking.com/wp-content/uploads/2023/09/baked-panko-onion-rings-feature-1200.jpg",
       "quantity": 10,
       "category": "snacks",
-      "id": "49"
+      "id": "49",
+      "review": "Super crispy and not greasy. A great side dish.",
+      "star_count": 4
     },
     {
       "id": "50",
       "name": "Popcorn",
-      "description": "Buttery popcorn, light and crunchy.",
+      "description": "A generous serving of light, airy, and buttery popcorn. This classic snack is perfect for a movie night or a simple treat.",
       "price": 60,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIAa_gHX-DwHqlNyGSJGls8NLcEFrSw8-AQ&s",
       "quantity": 10,
-      "category": "snacks"
+      "category": "snacks",
+      "review": "Perfectly popped and well-buttered. A classic snack.",
+      "star_count": 4
     },
     {
       "name": "Mint Tea",
-      "description": "Mint tea is a traditional drink enjoyed in many cultures. In Moroccan culture, the tea is made by steeping mint and green tea leaves and sugar, and is commonly served at all times of day.\n\nIn North America, early Native Americans made a tea from wild mint leaves to ease an upset stomach.",
+      "description": "Mint tea is a traditional, aromatic drink with a history spanning many cultures. Our version is a fresh and vibrant brew made with mint leaves, offering a soothing and refreshing experience.",
       "price": "40",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ646xKYhOpjiGpGdXTxFWy3hAQkyOgFnsgUQ&s",
       "quantity": 10,
       "category": "drinks",
-      "id": "5888"
+      "id": "5888",
+      "review": "A wonderfully calming tea. The mint flavor is clean and soothing.",
+      "star_count": 4
     }
   ],
-  "TopSellingProducts": []
+  "TopSellingProducts": [
+    {
+      "productId": "4",
+      "name": "Blueberry Milkshake",
+      "image": "https://images.milkandmore.co.uk/image/upload/w_iw/f_auto/q_auto/v1606995309/Blog/Recipes/blueberry-milkshake/blueberry-milkshake-blog-main-image.jpg",
+      "price": 150,
+      "count": 3,
+      "id": 1
+    },
+    {
+      "productId": "8",
+      "name": "Peach Iced Tea",
+      "image": "https://media.istockphoto.com/id/530186732/photo/fresh-homemade-peach-sweet-tea.jpg?s=612x612&w=0&k=20&c=F6wphGYPPVZqEzYTIqFoCWfOyvpBXakNNxEGXAfVdRY=",
+      "price": 110,
+      "count": 1,
+      "id": 2
+    },
+    {
+      "productId": "2",
+      "name": "Iced Coffee",
+      "image": "https://www.happysimpleliving.com/wp-content/uploads/2023/08/iced-coffee-concentrate-DP.jpg",
+      "price": "70",
+      "count": 1,
+      "id": 3
+    },
+    {
+      "productId": "3",
+      "name": "Green Tea",
+      "image": "https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945-1200x826.jpg",
+      "price": 60,
+      "count": 12,
+      "id": 4
+    },
+    {
+      "productId": "28",
+      "name": "Nachos",
+      "image": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg",
+      "price": 140,
+      "count": 1,
+      "id": 5
+    },
+    {
+      "productId": "5",
+      "name": "Lemonade",
+      "image": "https://prod-app.breville.com/thumbnail/recipe/1722581612/BCA800-fizzy+lemonade-hero+thumbnail-V3_1080x1440.jpg",
+      "price": 70,
+      "count": 1,
+      "id": 6
+    }
+  ]
 }
