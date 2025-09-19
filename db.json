@@ -215,9 +215,7 @@
             "phone": "946843081"
           }
         }
-      ],
-      "phone": "",
-      "address": ""
+      ]
     },
     {
       "id": "e3cd",
@@ -346,11 +344,7 @@
             "phone": "9876543498"
           }
         }
-      ],
-      "phone": "sfsdgsg",
-      "address": "",
-      "bio": "",
-      "birthdate": ""
+      ]
     },
     {
       "id": "d941",
@@ -594,6 +588,19 @@
           }
         }
       ]
+    },
+    {
+      "name": "arshaqtk",
+      "email": "arshaq8@gmail.com",
+      "password": "12341234",
+      "image": "/src/assets/images/profile-icon-9.png",
+      "role": "user",
+      "isAuthenticated": true,
+      "cart": [],
+      "wishlist": [],
+      "shippingAddress": [],
+      "orders": [],
+      "id": "ktu2B5b"
     }
   ],
   "products": [
